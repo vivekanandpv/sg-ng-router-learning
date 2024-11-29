@@ -1,0 +1,46 @@
+<ul>
+  <li>
+    <a
+      [routerLink]="['']"
+      class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+      >Home</a
+    >
+  </li>
+  <li>
+    <a
+      [routerLink]="['about']"
+      [queryParams]="{ lang: 'en', level: 6 }"
+      fragment="foo"
+      class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+      >About</a
+    >
+  </li>
+  <li>
+    <a
+      [routerLink]="['contact']"
+      class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+      >Contact</a
+    >
+  </li>
+  <li>
+    <a
+      [routerLink]="['report']"
+      class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+      >Report</a
+    >
+  </li>
+  <li>
+    <a
+      [routerLink]="['report', 2024]"
+      class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+      >Report : 2024</a
+    >
+  </li>
+  <li>
+    <a
+      [routerLink]="['report', 2024, 'Germany']"
+      class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+      >Report : 2024 : Germany</a
+    >
+  </li>
+</ul>

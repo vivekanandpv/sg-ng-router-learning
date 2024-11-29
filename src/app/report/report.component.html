@@ -1,0 +1,5 @@
+<h3>Report Component</h3>
+<ng-container *ngIf="params$ | async as params">
+  <p>Year: {{ params.year }}</p>
+  <p>Country: {{ params.country }}</p>
+</ng-container>

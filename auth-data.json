@@ -1,0 +1,12 @@
+{
+  "auth": [
+    {
+      "id": 1,
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJyb2xlcyI6WyJhZG1pbiIsIm1hbmFnZXIiXX0.IpfJKVXKDJtGYDyPinTtyU5S0FWIX0-NGF4houP2lHE"
+    },
+    {
+      "id": 2,
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1hcmsgV2lsc29uIiwiaWF0IjoxNTE2MjM5MDIyLCJyb2xlcyI6WyJ1c2VyIiwibWFuYWdlciJdfQ.VY49nUWFx32fd3J7e4eJz-hLdYDG5ZQYr5Ik1eHivp4"
+    }
+  ]
+}

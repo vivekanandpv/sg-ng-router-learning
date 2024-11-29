@@ -1,0 +1,10 @@
+<h3>Home Component</h3>
+<button class="btn btn-primary me-4" (click)="toAbout()">To About</button
+><button class="btn btn-primary me-4" (click)="toReport()">To Report</button>
+<hr />
+@if (loginStatus$ | async) {
+<h4 class="mb-4">User is currently logged in</h4>
+<button class="btn btn-danger me-4" (click)="logout()">Logout</button>
+} @else {
+<button class="btn btn-warning me-4" (click)="login()">Login</button>
+}

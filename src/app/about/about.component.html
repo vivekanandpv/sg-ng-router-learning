@@ -1,0 +1,6 @@
+<h4>About Component</h4>
+<ng-container *ngIf="qp$ | async as qp">
+  <p>Language: {{ qp.lang }}</p>
+  <p>Level: {{ qp.level }}</p>
+</ng-container>
+<p>Fragment: {{ fr$ | async }}</p>
